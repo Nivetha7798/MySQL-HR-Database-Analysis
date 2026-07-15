@@ -17,8 +17,8 @@ enterprise data analyst roles.
 | EMPLOYEES | Employee details, salary |
 | DEPARTMENTS | Department names and IDs |
 | JOBS | Job titles and salary ranges |
-| JOB_HISTORY | IDs and start date |
-| LOCATIONS | Locations IDs |
+| JOB_HISTORY | Employee job change history with dates |
+| LOCATIONS | Office location details |
 
 ---
 
