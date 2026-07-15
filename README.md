@@ -43,8 +43,8 @@ enterprise data analyst roles.
 
 ## Key Queries Highlighted
 **Query -- Career Summary Report**
-Combined CTE + 3 Table JOIN + DENSE_RANK Window Function
-+ Aggregation in a single query to generate complete employee career
+Combined CTE + 3 Table JOIN + DENSE_RANK Window Function +
+Aggregation in a single query to generate complete employee career
 overview including salary rank and job change history
 
 **Query -- Second Highest Salary**
