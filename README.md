@@ -65,8 +65,8 @@ their specific department average -- not the company average
 ## Concepts Explained 
 
 **Why DENSE_RANK over RANK?**  
-RANK() skips numbers after ties -- 1,1,3,4  
-DENSE_RANK() never skips -- 1,1,2,3  
+-RANK() skips numbers after ties -- 1,1,3,4  
+-DENSE_RANK() never skips -- 1,1,2,3  
 For finding nth highest salary DENSE_RANK is always correct  
 
 **Why CTE over Subquery?**  
