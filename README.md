@@ -90,9 +90,9 @@ and easier to debug than deeply nested subqueries
 ---
 
 ## Tools Used
--MySQL
--phpMyAdmin
--IBM Skills Network Labs
+MySQL  
+phpMyAdmin  
+IBM Skills Network Labs  
 
 ---
 
