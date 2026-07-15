@@ -43,21 +43,21 @@ enterprise data analyst roles.
 
 ## Key Queries Highlighted
 **Query -- Career Summary Report**
-Combined CTE + 3 Table JOIN + DENSE_RANK Window Function +
+-Combined CTE + 3 Table JOIN + DENSE_RANK Window Function +
 Aggregation in a single query to generate complete employee career
 overview including salary rank and job change history
 
 **Query -- Second Highest Salary**
-Used DENSE_RANK() instead of RANK() to correctly handle
+-Used DENSE_RANK() instead of RANK() to correctly handle
 tied salaries -- ensures no salary rank is skipped when
 duplicates exist
 
 **Query -- Most Recent Job Change**
-Used ROW_NUMBER() with PARTITION BY EMPL_ID to identify
+-Used ROW_NUMBER() with PARTITION BY EMPL_ID to identify
 each employee's most recent job change from history table
 
 **Query -- Employees Above Department Average**
-Used correlated subquery to compare each employee's salary against 
+-Used correlated subquery to compare each employee's salary against 
 their specific department average -- not the company average
 
 ---
@@ -65,12 +65,12 @@ their specific department average -- not the company average
 ## Concepts Explained 
 
 **Why DENSE_RANK over RANK?**
-RANK() skips numbers after ties -- 1,1,3,4
-DENSE_RANK() never skips -- 1,1,2,3
-For finding nth highest salary DENSE_RANK is always correct
+-RANK() skips numbers after ties -- 1,1,3,4
+-DENSE_RANK() never skips -- 1,1,2,3
+-For finding nth highest salary DENSE_RANK is always correct
 
 **Why CTE over Subquery?**
-CTEs are more readable, reusable within the same query
+-CTEs are more readable, reusable within the same query
 and easier to debug than deeply nested subqueries
 
 **Stored Procedure Parameters**
